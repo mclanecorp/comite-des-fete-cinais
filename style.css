@@ -20,6 +20,12 @@ nav {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.burger {
+  display: none;
+}
+.img_burger {
+  width: 30px;
+}
 h1 {
   font-weight: 400;
 }
@@ -209,4 +215,51 @@ footer {
 }
 .footer3 {
   margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .burger {
+    display: block;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  .menu {
+    display: none;
+  }
+  .box_title {
+    height: 300px;
+  }
+  .text_title {
+    font-size: 18px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: 300;
+    line-height: 1.5;
+    background-color: rgba(237, 237, 237, 0.312);
+  }
+  .title {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+  }
+  h3 {
+    text-align: center;
+  }
+  .box_form {
+    margin-top: 20px;
+  }
+  .date {
+    font-size: 20px;
+  }
+  .text_evenement {
+    text-align: center;
+  }
+  .btn_1 {
+    font-size: 10px;
+    padding: 5px 15px;
+  }
 }
